@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         //be sure to replace "willbla" with your own Docker Hub username
-        DOCKER_IMAGE_NAME = "smgriffiths/train-schedule"
+        DOCKER_IMAGE_NAME = "smgriffiths/cicd-pipeline-train-schedule-kubernetes"
     }
     stages {
         stage('Build') {
